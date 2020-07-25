@@ -71,3 +71,6 @@ gem 'html2slim'
 gem 'bootstrap'
 
 gem 'rails_autolink'
+
+# Serch function
+gem 'ransack'
