@@ -61,6 +61,9 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
+  #非同期処理
+  config.active_job.queue_adapter = :sidekiq
+
   # ログのローテーション頻度設定
   config.logger = Logger.new('log/development.log', 'daily')
   config.logger.formatter = proc { |severity, timestamp, progname, message|
