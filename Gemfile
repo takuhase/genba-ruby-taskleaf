@@ -74,3 +74,9 @@ gem 'rails_autolink'
 
 # Serch function
 gem 'ransack'
+
+# ページネーション
+gem 'kaminari'
+
+# 非同期処理
+gem 'sidekiq', '~> 5.0'
