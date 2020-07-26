@@ -74,3 +74,6 @@ gem 'rails_autolink'
 
 # Serch function
 gem 'ransack'
+
+# ページネーション
+gem 'kaminari'
