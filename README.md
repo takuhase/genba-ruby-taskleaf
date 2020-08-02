@@ -22,4 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<<<<<<< HEAD
 test
+=======
+commit conflict
+>>>>>>> 3bc9dc2... hoge
