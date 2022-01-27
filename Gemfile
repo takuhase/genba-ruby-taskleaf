@@ -79,4 +79,4 @@ gem 'ransack'
 gem 'kaminari'
 
 # 非同期処理
-gem 'sidekiq', '~> 5.0'
+gem 'sidekiq', '~> 6.4'
